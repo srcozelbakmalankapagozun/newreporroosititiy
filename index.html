@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+   
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta content=fyliex.com property=og:title>
+      <meta content="fyliex's personal bio website" property=og:description>
+      <meta content="https://cdn.discordapp.com/avatars/1109817329845534792/1a9149fdd51a6ca8bea15b0eab86e021.webp?size=1024&width=0&height=281" property=og:image>
+      <script disable-devtool-auto src='https://cdn.jsdelivr.net/npm/disable-devtool'></script>
+      <title>home</title>
+      <meta content=#B19CD9 name=theme-color data-react-helmet=true>
+      <meta content="private biolink service" name=description>
+      <link rel="icon" href="https://cdn.discordapp.com/avatars/1109817329845534792/1a9149fdd51a6ca8bea15b0eab86e021.webp?size=1024&amp;width=0&amp;height=281">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+   </head>
+   <body bgcolor="#111111">
+      <div id="snowflakes-container"></div>
+
+      
+      <button class="noselect text glow click2enter" id="enter">click to enter</button>
+      <pre class="ascii-art centered-ascii noselect">
+                                       ####                                        
+                                 #########.                    *@@,             
+                            *###%%%%###########,             ,&@@@@%            
+                         .#######%&%#,....*(######%     @@@@@@@/@@/@@@@@@&      
+            *                / .**************, /          @@@@@@@@@@@@         
+            @@@#/            **** *****.*********.,        .@@@@@@@@@@.         
+           @@@@@@/         , ********************..        (@@@@%&@@@@*         
+  ,   /@@@@@@@@@@@@@&.        *****,....,****** .                               
+ **@@@@@@@@ %@@ .@@@@@@@@      /  ,***,.       *                                
+     @@@@@@@@@@@@@@@@@*/      # &             @@@@( ,                           
+      .@@@(@@@@@,@@@          (@@@@          &@@@@@@@ ,                         
+       @@@@@@@@@@@@@@.      / @@@@@@&/     (@@@@@@@@@@@                         
+     .&@@@@@/  @@@@@@      ..@@@@@@@@@@@@@@@@@@@@@@@@@@@@@.                     
+      .# .        .,#      (@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#  *               
+                         *.@@@@@(&@@@@@@@@@@@@@@@@@@@@@(/@@@@@@@@@              
+                        * @@@@@  ,,@@@@@@@@@@@@@@@@@@%   . @@@@@@@@@,%          
+                       .,@@@@(.    @@@@@@@@@@@@@@@@@@@     # %@@@@*  ,,/        
+            .  , .,.   &@@@@@      @@@@@@@@@@@@@@@@@@@@ (     /  ,*,. ,#        
+                *,*** ,***/@ (     @@@@@@@@@@@@@@@@@@@@@         .,(            
+                  (* ,*(%#*      , @@@@@@@@@@@@@@@@@@@@@&                       
+                                  &@@@@@@@@@@@@@@@@@@@@@@(                      
+                ( ,             ( @@@@@@@@@@@@@@@@@@@@@@@@,*                    
+               @@@&/             %@@@@@@@@@@@@@@@@@@@@@@@@@*                    
+             .@@@@@@*            @,@@@@@@@@@@@@@@@@@@@@@@ @@@                   
+      @@@@@@@@@@@@@@@@@@@@@,   % @ @@@ (@@@@@@./@@@@@@@@@@ (@@ ,                
+     ( @@@@@@@ %@@ /@@@@@@%,   # @ %@@@ @@@@@@@ @@@# %@/*@@&@@@#                
+        .%@@@@@#/(@@@@@@         @& @@@& @@@@@@@*     /.,@% *                   
+         /@@@@@@@@@@@@@                &@,              @@@@ ,                  
+          @@@@@@@@@@@@@#         /    @@@@ ,        , #/#                       
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; %@@@./   . %@@@,          .,   /.                                                                   
+</pre>
+      <p id="vari" class="centered1 glow text noselect">socials</p>
+      <!-- <p id="xwes" class="centered2 glow text noselect">xwes</p> -->
+      <p id="status" class="centered2 glow text noselect">status</p>
+
+      <p id="currentlyPlaying" class="glow textSmall noselect currentPlay">Currently playing: 5L - sniperZ</p>
+
+      <script>
+         document.getElementById('currentlyPlaying').addEventListener('click', function(event) {
+             // Sol tık ile tıklama işlemleri için
+             event.preventDefault();
+             window.open('https://www.youtube.com/watch?v=5fqbRhtQJE4', '_blank');
+         });
+     
+         document.getElementById('currentlyPlaying').addEventListener('mousedown', function(event) {
+             // Orta tık (mouse'un orta tuşu) ile tıklama işlemleri için
+             if (event.button === 1) { // Orta tuş genellikle 1 numaradır
+                 event.preventDefault();
+                 window.open('https://www.youtube.com/watch?v=5fqbRhtQJE4', '_blank');
+             }
+         });
+     </script>
+          
+      <p id="visitfucker" class="visit glow textSmall noselect">1337</p>
+      <button id="audioButton" class="audioButton glow textSmall noselect">Mute</button>
+
+      <!--<ul>
+      <li><a href="index.php" class="noselect textSmall glow">Home</a></li>
+       <li><a href="shop.php" class="noselect textSmall glow">Shop</a></li>
+      <li><a href="hall.php" class="noselect textSmall glow">Hall Of Shame</a></li>
+      <li><a href="refresh.php" class="noselect textSmall glow">Refresher</a></li>
+      </ul> -->
+
+      <script src="C:\Users\kisis\OneDrive\Belgeler\GitHub\qwdqwdsaddqcwqwdx\kar.js"></script>
+      <script>
+         new Snowflakes({color: "#fff"});
+      </script>
+      <script> 
+         var button = document.getElementById('enter');
+         var audio = new Audio('media/5L_-_sniperz.mp3');
+         audio.loop = true;
+         
+         button.addEventListener('click', function() {
+          console.log("entered");
+          audio.play();
+          button.style.display = 'none';
+         });
+         
+      </script>
+      		<script src="C:\Users\kisis\OneDrive\Belgeler\GitHub\qwdqwdsaddqcwqwdx\cursor.js"></script>
+		<script>
+			window.addEventListener("load", (event) => {
+				new cursoreffects.fairyDustCursor({
+				colors: ["#ff0000", "#ff0000", "#ff0000"],
+				});
+				});
+		</script>
+      <script src="js/main.js"></script>
+   </body>
+
+</html>
